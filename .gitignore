@@ -3,3 +3,7 @@
 /.pnp.js
 /coverage
 /build
+/.jshintrc
+/package-lock.json
+/package.json
+/webpack.config
