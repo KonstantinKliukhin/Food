@@ -1,9 +1,0 @@
-/node_modules
-/.pnp
-/.pnp.js
-/coverage
-/build
-/.jshintrc
-/package-lock.json
-/package.json
-/webpack.config
