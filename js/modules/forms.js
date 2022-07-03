@@ -5,7 +5,7 @@ function forms(modalTimerId) {
     const forms = document.querySelectorAll('form');
 
     const message = {
-        loading: 'img/form/spinner.svg',
+        loading: 'https://icons8.com/preloaders/preloaders/1487/%E2%80%8B%E2%80%8BIphone-spinner-1.gif',
         success: 'Спасибо! Скоро мы с вами свяжемся',
         failure: 'Что-то пошло не так...'
     };
@@ -22,7 +22,8 @@ function forms(modalTimerId) {
             statusMessage.src = message.loading;
             statusMessage.style.cssText = `
                 display: block;
-                margin: 0 auto;
+                margin: 10px auto;
+                max-width: 30px;
             `;
             
             form.insertAdjacentElement('afterend', statusMessage);

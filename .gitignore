@@ -4,7 +4,8 @@
 /coverage
 /build
 .jshintrc
-
-
+webpack.config.js
+/dist
+/.cache
 
 
